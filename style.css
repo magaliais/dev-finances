@@ -73,14 +73,6 @@ header {
     margin-top: 1rem;
 }
 
-.card.in {
-    color: rgb(0, 180, 0);
-}
-
-.card.out {
-    color: rgb(180, 0, 0);
-}
-
 .card.total {
     background: #49aa26;
     color: #fff;
