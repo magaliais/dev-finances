@@ -1,6 +1,6 @@
 <h1>dev.finances - Administrador Financeiro</h1>
 
-<img src="./assets/logo.svg" alt="logo" height=150px>
+<img src="" alt="logo" height=150px>
 
 ---
 
@@ -27,9 +27,7 @@
 
 ---
 
-<ul>
-    <li>Adicionar um favicon à aba</li>
-    <li>Adicionar "toggleTotal()" ao método `DOM.updateBalance()`, que é responsável por alternar a cor do card entre verde ou vermelho de acordo com o resultado final do balanço</li>
-    <li>Adicionar a funcionalidade de deixar os dados das transações salvas no navegador para a próxima vez que o site seja acessado</li>
-    <li>Adicionar "toggleTheme()" para alternar a aplicação entre modo noturno ou diurno</li>
-</ul>
+- [ ] Adicionar um favicon à aba;
+- [ ] Adicionar o método `toggleTotal()` ao `DOM.updateBalance()`, que será responsável por alternar a cor do card entre verde ou vermelho de acordo com o resultado final do balanço;
+- [ ] Adicionar a funcionalidade de deixar os dados das transações salvas no navegador para a próxima vez que o site seja acessado;
+- [ ] Adicionar `toggleTheme()` para alternar a aplicação entre modo noturno ou diurno;
