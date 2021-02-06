@@ -1,6 +1,6 @@
 <h1>Maratona Discover - <i>dev.finances</i> / Administrador Financeiro</h1>
 
-<img src="./assets/logo.svg" alt="logo" height=150px>
+<img src="" alt="logo" height=150px>
 
 ---
 
@@ -28,9 +28,7 @@
 
 ---
 
-<br>
-
 - [ ] Adicionar um favicon à aba;
-- [ ] Adicionar "toggleTotal()" ao método `DOM.updateBalance()`, que é responsável por alternar a cor do card entre verde ou vermelho de acordo com o resultado final do balanço;
+- [ ] Adicionar o método `toggleTotal()` ao `DOM.updateBalance()`, que será responsável por alternar a cor do card entre verde ou vermelho de acordo com o resultado final do balanço;
 - [ ] Adicionar a funcionalidade de deixar os dados das transações salvas no navegador para a próxima vez que o site seja acessado;
-- [ ] Adicionar "toggleTheme()" para alternar a aplicação entre modo noturno ou diurno;
+- [ ] Adicionar `toggleTheme()` para alternar a aplicação entre modo noturno ou diurno;
