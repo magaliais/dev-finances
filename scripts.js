@@ -260,7 +260,7 @@ const App = {
         })
         DOM.updateBalance()
 
-        Storage.set(transaction.all)
+        Storage.set(Transaction.all)
     },
 
     reload() {
