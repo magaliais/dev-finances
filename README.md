@@ -32,3 +32,4 @@
 - [x] Adicionar o método checagem de total ao `DOM.updateBalance()`, a fim de verificar o saldo final e alternar a cor do card entre verde ou vermelho de acordo com o resultado final do balanço;
 - [ ] Adicionar a funcionalidade de deixar os dados das transações salvas no navegador para a próxima vez que o site seja acessado;
 - [ ] Adicionar `toggleTheme()` para alternar a aplicação entre modo noturno ou diurno;
+- [ ] Adicionar input ao modal de cadastrar Nova Transação, que possibilita a categorização do tipo de transação realizada (Lazer, Doméstico, Estudo, etc);
