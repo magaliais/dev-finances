@@ -147,13 +147,20 @@ const DOM = {                                                               // m
             .getElementById('totalDisplay')
             .innerHTML = Utils.formatCurrency(Transaction.total(transaction))
 
+        
+        
+// Funcionalidade toggle total bg-color ============================================= 
+        
         if(Transaction.total(transaction) >= 0) {
-            document.getElementsByClassName('card total')
+            document.getElementById('totalCard').style.backgroundColor = '#49aa26';
         }
         else {
-
+            document.getElementById('totalCard').style.backgroundColor = '#e92929';
         }
         
+
+// ==================================================================================
+
     },
 
     clearTransactions() {
