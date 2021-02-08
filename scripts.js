@@ -146,6 +146,14 @@ const DOM = {                                                               // m
         document
             .getElementById('totalDisplay')
             .innerHTML = Utils.formatCurrency(Transaction.total(transaction))
+
+        if(Transaction.total(transaction) >= 0) {
+            document.getElementsByClassName('card total')
+        }
+        else {
+
+        }
+        
     },
 
     clearTransactions() {
