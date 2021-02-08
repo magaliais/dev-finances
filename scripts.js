@@ -148,7 +148,6 @@ const DOM = {                                                               // m
             .innerHTML = Utils.formatCurrency(Transaction.total(transaction))
 
         
-        
 // Funcionalidade toggle total bg-color ============================================= 
         
         if(Transaction.total(transaction) >= 0) {
@@ -157,8 +156,6 @@ const DOM = {                                                               // m
         else {
             document.getElementById('totalCard').style.backgroundColor = '#e92929';
         }
-        
-
 // ==================================================================================
 
     },
