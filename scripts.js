@@ -150,11 +150,13 @@ const DOM = {                                                               // m
         
 // Funcionalidade toggle total bg-color ============================================= 
         
-        if(Transaction.total(transaction) >= 0) {
-            document.getElementById('totalCard').style.backgroundColor = '#49aa26';
+        if(Transaction.total(transaction) == 0) {
+            document.getElementById('totalCard').style.backgroundColor = '#A9A9A9';
+        } else if(Transaction.total(transaction) > 0) {
+            document.getElementById('totalCard').style.backgroundImage = 'linear-gradient(135deg, #49aa26 10%, #2D4A22)';
         }
         else {
-            document.getElementById('totalCard').style.backgroundColor = '#e92929';
+            document.getElementById('totalCard').style.backgroundImage = 'linear-gradient(135deg, #9C231B 10%, #000)';
         }
 // ==================================================================================
 
