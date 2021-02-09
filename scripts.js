@@ -150,8 +150,10 @@ const DOM = {                                                               // m
         
 // Funcionalidade toggle total bg-color ============================================= 
         
+        console.log(Transaction.total(transaction))
+
         if(Transaction.total(transaction) == 0) {
-            document.getElementById('totalCard').style.backgroundColor = '#A9A9A9';
+            document.getElementById('totalCard').style.backgroundImage = 'linear-gradient(135deg, #A9A9A9 10%, #2D4A22)';
         } else if(Transaction.total(transaction) > 0) {
             document.getElementById('totalCard').style.backgroundImage = 'linear-gradient(135deg, #49aa26 10%, #2D4A22)';
         }
@@ -161,7 +163,6 @@ const DOM = {                                                               // m
 // ==================================================================================
 
     },
-
     clearTransactions() {
         DOM.transactionsContainer.innerHTML = ""
     },
@@ -273,7 +274,7 @@ const App = {
             DOM.addTransaction(transaction, index)
         })
         DOM.updateBalance()
-
+        
         Storage.set(Transaction.all)
     },
 

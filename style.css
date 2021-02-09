@@ -160,7 +160,7 @@ header {
 }
 
 .card.total {
-    background: var(--green);
+    background: #A9A9A9;
     color: #fff;
 }
 
