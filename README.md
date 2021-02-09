@@ -1,6 +1,6 @@
 <h1>💰 Maratona Discover - <i>dev.finance$</i> 💰</h1>
 
-<img src="./assets/header.png" alt="logo">
+<img src="./README/header.png" alt="logo">
 
 <br>
 
