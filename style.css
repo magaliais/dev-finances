@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    background: #f0f5f0;
+    background: #f0f5f0/*#474747*/;
     font-family: 'Poppins', 'sans-serif';
 }
 
@@ -102,7 +102,7 @@ button:hover {
 
 /* Header ================================================ */
 header {
-    background: #2d4a22;
+    background: #2d4a22/*#121212*/;
     padding: 2rem 0 10rem;
     text-align: center;
 }
@@ -124,23 +124,17 @@ header {
 
 /* Cards ================================================= */
 .card {
-    background: #fff;
+    background: #fff/*#1F1B24*/;
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
 
     margin-bottom: 2rem;
 
-    color: var(--dark-blue);
+    color: var(--dark-blue)/*#fff*/;
 }
 
 .card:hover {
-    background: #ECECEC;
-    padding: 1.5rem 2rem;
-    border-radius: 0.25rem;
-
-    margin-bottom: 2rem;
-
-    color: var(--dark-blue);
+    box-shadow: 0 0 0.3em #000;
 }
 
 .card h3 {
@@ -159,8 +153,20 @@ header {
     margin-top: 1rem;
 }
 
+/* ============================= */
+
+#incomeDisplay {
+    color: #12A454;
+}
+
+#expenseDisplay {
+    color: #E83F5B
+}
+
+/* ============================= */
+
 .card.total {
-    background: #A9A9A9;
+
     color: #fff;
 }
 
@@ -174,7 +180,7 @@ header {
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
-    color: #3a3a3a;
+    color:  #3a3a3a/*#fff*/;
 }
 
 table thead tr th:first-child,      /* first-child pega o primeiro elemento do tipo*/
@@ -188,7 +194,7 @@ table tbody tr td:last-child {
 }
 
 table th {
-    background: #fff;
+    background: #fff/*#1F1B24*/;
 
     font-weight: normal;
     padding: 1rem 2rem;
@@ -202,16 +208,16 @@ table tbody tr {
 
 table tbody tr:hover {
     opacity: 1;
-    cursor: pointer;
+    cursor: default;
 }
 
 table tbody td {
-    background: #fff;
+    background: #fff/*#1F1B24*/;
     padding: 1rem 2rem;
 }
 
 td.description {
-    color: var(--dark-blue);
+    color: var(--dark-blue)/*#fff*/;
 }
 
 td.income {
@@ -220,6 +226,10 @@ td.income {
 
 td.expense {
     color: var(--red);
+}
+
+#remove-transaction:hover {
+    cursor: pointer;
 }
 
 /* Modal ================================================= */
@@ -248,7 +258,7 @@ td.expense {
 }
 
 .modal {
-    background: #F0F2F5;
+    background: #F0F2F5/*#363636*/;
     padding: 2.4rem;
     position: relative;
     z-index: 1;
@@ -299,7 +309,7 @@ input {
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
-    color: var(--dark-blue);
+    color: var(--dark-blue)/*#AFAFAF*/;
 
     opacity: 0.6;
 }

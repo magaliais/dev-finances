@@ -130,7 +130,7 @@ const DOM = {                                                               // m
         <td class="${CSSclass}">${amount}</td>
         <td class="date">${transaction.date}</td>
         <td>
-            <img onclick="Transaction.remove(${index})" src="./assets/minus.svg" alt="Remover transação">
+            <img id="remove-transaction" onclick="Transaction.remove(${index})" src="./assets/minus.svg" alt="Remover transação">
         </td>
         `
         return html
@@ -153,13 +153,14 @@ const DOM = {                                                               // m
         console.log(Transaction.total(transaction))
 
         if(Transaction.total(transaction) == 0) {
-            document.getElementById('totalCard').style.backgroundImage = 'linear-gradient(135deg, #A9A9A9 10%, #2D4A22)';
+            document.getElementById('totalCard').style.backgroundImage = 'linear-gradient(135deg, #A9A9A9 10%, #646262)';
         } else if(Transaction.total(transaction) > 0) {
             document.getElementById('totalCard').style.backgroundImage = 'linear-gradient(135deg, #49aa26 10%, #2D4A22)';
         }
         else {
             document.getElementById('totalCard').style.backgroundImage = 'linear-gradient(135deg, #9C231B 10%, #000)';
         }
+        
 // ==================================================================================
 
     },
