@@ -327,3 +327,49 @@ footer {
     }
 
 }
+
+
+
+
+/* Theme Switch ========================================== */
+/*
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+  }
+  
+  .check {
+    position: absolute;
+    right: 20px;
+    top: 32.5px;
+    width: 40px;
+    height: 20px;
+    background: var(--light-green);
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.2s;
+  }
+  
+  input[type="checkbox"]:checked ~ .check {
+    background: #333333;
+  }
+  
+  .check::before {
+    content: "";
+    position: absolute;
+    top: 2.5px;
+    left: 2px;
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.2s;
+  }
+  
+  input[type="checkbox"]:checked ~ .check::before {
+    transform: translateX(20px);
+    background: #3dd705;
+  } 
+*/
