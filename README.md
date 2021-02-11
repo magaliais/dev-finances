@@ -1,6 +1,10 @@
-<h1>💰 Maratona Discover - <i>dev.finance$</i> 💰</h1>
+<h1 align="center">
+    <img src="./README/logo.svg">
+</h1>
 
-<img src="./README/header.png" alt="logo">
+<h2 align="center">
+    <img src="./README/header.png" alt="logo">
+</h2>
 
 <br>
 
@@ -8,11 +12,14 @@
 
 <br>
 
-<h2>Índice</h2>
+<h2>📋 Índice</h2>
+
+<br>
 
 <ul>
     <li><a href="#about">Sobre o projeto</a></li>
     <li><a href="#techs">Tecnologias Utilizadas</a></li>
+    <li><a href="#layout">Layout</a></li>
     <li><a href="#funcs">Funcionalidades</a></li>
     <li><a href="#goals">Ideias</a></li>
     <li><a href="#contribute">Como contribuir</a></li>
@@ -31,7 +38,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;O <strong>dev.finance$</strong> é uma aplicação experimental feita para ser executada no próprio navegador (<i>Desktop</i> ou <i>Mobile</i>) com o objetivo de organizar as finanças (entrada, saída, total e transações) de um usuário qualquer, permitindo uma visualização dos dados.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Faz parte da proposta da RocketSeat para 2021, que consiste em disponibilizar vídeo-aulas gratuitas, as quais darão a base teórica para que os alunos consigam acompanhar uma <strong>maratona</strong> para desenvolver uma aplicação real que coloque em prática o conteúdo adquirido.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Na <strong>Maratona Discover</strong>, onde desenvolvemos o sistema em questão, utilizamos <i>HTML5</i>, <i>CSS3</i> e <i>JavaScript</i> para construir o front e o back-end da aplicação. Além disso, utilizamos o Local Storage do navegador como banco de dados. Todo o código foi desenvolvido no Visual Studio Code.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Para visualizar o resultador, é possível acessar a página da aplicação <a href="https://magaliais.github.io/dev-finances/">aqui✔️</a>.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Para visualizar o resultador, é possível acessar a página da aplicação <a href="https://magaliais.github.io/dev-finances/" target="_blank">aqui✔️</a>.</p>
 
 <br>
 
@@ -48,6 +55,16 @@
 * JavaScript;
 * Figma;
 * Visual Code Studio;
+
+<br>
+
+---
+
+<br>
+
+<h2 id="layout">🔖 Layout</h2>
+
+Você pode visualizar o layout inicial do projeto através <a href="">desse link</a>. É necessário ter conta no <a href="">Figma</a> para acessá-lo.
 
 <br>
 
