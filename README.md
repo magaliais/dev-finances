@@ -10,8 +10,6 @@
 
 ---
 
-<br>
-
 <h2>📋 Índice</h2>
 
 <br>
@@ -29,8 +27,6 @@
 
 ---
 
-<br>
-
 <h2 id="about">📖 Sobre o projeto</h2>
 
 <br>
@@ -38,13 +34,11 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;O <strong>dev.finance$</strong> é uma aplicação experimental feita para ser executada no próprio navegador (<i>Desktop</i> ou <i>Mobile</i>) com o objetivo de organizar as finanças (entrada, saída, total e transações) de um usuário qualquer, permitindo uma visualização dos dados.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Faz parte da proposta da RocketSeat para 2021, que consiste em disponibilizar vídeo-aulas gratuitas, as quais darão a base teórica para que os alunos consigam acompanhar uma <strong>maratona</strong> para desenvolver uma aplicação real que coloque em prática o conteúdo adquirido.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Na <strong>Maratona Discover</strong>, onde desenvolvemos o sistema em questão, utilizamos <i>HTML5</i>, <i>CSS3</i> e <i>JavaScript</i> para construir o front e o back-end da aplicação. Além disso, utilizamos o Local Storage do navegador como banco de dados. Todo o código foi desenvolvido no Visual Studio Code.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Para visualizar o resultador, é possível acessar a página da aplicação <a href="https://magaliais.github.io/dev-finances/" target="_blank">aqui✔️</a>.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Para visualizar o resultado, é possível acessar a página da aplicação <a href="https://magaliais.github.io/dev-finances/" target="_blank">aqui✔️</a>.</p>
 
 <br>
 
 ---
-
-<br>
 
 <h2 id="techs">🛠 Tecnologias e Ferramentas Utilizadas</h2>
 
@@ -60,8 +54,6 @@
 
 ---
 
-<br>
-
 <h2 id="layout">🔖 Layout</h2>
 
 Você pode visualizar o layout inicial do projeto através <a href="">desse link</a>. É necessário ter conta no <a href="">Figma</a> para acessá-lo.
@@ -69,8 +61,6 @@ Você pode visualizar o layout inicial do projeto através <a href="">desse link
 <br>
 
 ---
-
-<br>
 
 <h2 id="funcs">⚙️ Funcionalidades</h2>
 
@@ -87,8 +77,6 @@ Você pode visualizar o layout inicial do projeto através <a href="">desse link
 
 ---
 
-<br>
-
 <h2 id="goals">💡 Ideias</h2>
 
 <br>
@@ -104,8 +92,6 @@ Trabalho, Alimentação, Lazer, Atividade extra, etc);
 <br>
 
 ---
-
-<br>
 
 <h2 id="contribute">💪 Como contribuir</h2>
 
