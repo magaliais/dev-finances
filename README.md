@@ -56,7 +56,7 @@
 
 <h2 id="layout">🔖 Layout</h2>
 
-Você pode visualizar o layout inicial do projeto através <a href="">desse link</a>. É necessário ter conta no <a href="">Figma</a> para acessá-lo.
+Você pode visualizar o layout inicial do projeto através <a href="https://www.figma.com/file/12RjuPFjyBsfIMOiqrKW1Q/dev.finance%24-Maratona-Discover-(Copy)?node-id=0%3A1">desse link</a>. É necessário ter conta no <a href="">Figma</a> para acessá-lo.
 
 <br>
 
