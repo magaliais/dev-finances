@@ -201,7 +201,7 @@ const Utils = {
 
 const Form = {
 
-    desciption: document.querySelector('input#description'),
+    description: document.querySelector('input#description'),
 
     amount: document.querySelector('input#amount'),
 
@@ -209,7 +209,7 @@ const Form = {
 
     getValues() {
         return {
-            description: Form.desciption.value,
+            description: Form.description.value,
             amount: Form.amount.value,
             date: Form.date.value,
         }
@@ -235,7 +235,7 @@ const Form = {
     },
 
     clearFields() {
-        Form.desciption.value = ""
+        Form.description.value = ""
         Form.amount.value = ""
         Form.date.value = ""
     },
