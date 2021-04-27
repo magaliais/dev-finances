@@ -150,15 +150,15 @@ const DOM = {                                                               // m
         
 // Funcionalidade toggle total bg-color ============================================= 
         
-        console.log(Transaction.total(transaction))
+        const $total = document.querySelector('.total');
 
         if(Transaction.total(transaction) == 0) {
-            document.getElementById('totalCard').style.backgroundImage = 'linear-gradient(135deg, #A9A9A9 10%, #646262)';
+            $total.style.backgroundImage = 'linear-gradient(135deg, #A9A9A9 10%, #646262)';
         } else if(Transaction.total(transaction) > 0) {
-            document.getElementById('totalCard').style.backgroundImage = 'linear-gradient(135deg, #49aa26 10%, #2D4A22)';
+            $total.style.backgroundImage = 'linear-gradient(135deg, #49aa26 10%, #2D4A22)';
         }
         else {
-            document.getElementById('totalCard').style.backgroundImage = 'linear-gradient(135deg, #9C231B 10%, #000)';
+            $total.style.backgroundImage = 'linear-gradient(135deg, #9C231B 10%, #c72e23)';
         }
         
 // ==================================================================================

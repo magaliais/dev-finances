@@ -130,11 +130,13 @@ header {
 
     margin-bottom: 2rem;
 
+    cursor: default;
     color: var(--dark-blue)/*#fff*/;
+    transition: 0.2s;
 }
 
 .card:hover {
-    box-shadow: 0 0 0.3em #000;
+    transform: scale(1.05, 1.05);
 }
 
 .card h3 {
@@ -160,13 +162,12 @@ header {
 }
 
 #expenseDisplay {
-    color: #E83F5B
+    color: #E83F5B;
 }
 
 /* ============================= */
 
 .card.total {
-
     color: #fff;
 }
 
@@ -310,6 +311,7 @@ footer {
     text-align: center;
     padding: 4rem 0 2rem;
     color: var(--dark-blue)/*#AFAFAF*/;
+    background: #f0f5f0;
 
     opacity: 0.6;
 }
