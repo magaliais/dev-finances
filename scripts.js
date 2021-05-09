@@ -153,12 +153,12 @@ const DOM = {                                                               // m
         const $total = document.querySelector('.total');
 
         if(Transaction.total(transaction) == 0) {
-            $total.style.backgroundImage = 'linear-gradient(135deg, #A9A9A9 10%, #646262)';
+            $total.classList = 'card total neutral';
         } else if(Transaction.total(transaction) > 0) {
-            $total.style.backgroundImage = 'linear-gradient(135deg, #49aa26 10%, #2D4A22)';
+            $total.classList = 'card total positive';
         }
         else {
-            $total.style.backgroundImage = 'linear-gradient(135deg, #9C231B 10%, #c72e23)';
+            $total.classList = 'card total negative';
         }
         
 // ==================================================================================

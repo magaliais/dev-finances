@@ -17,8 +17,12 @@ html {
 }
 
 body {
-    background: #f0f5f0/*#474747*/;
+    background: #f0f5f0;
     font-family: 'Poppins', 'sans-serif';
+}
+
+body.dark {
+    background: #30352e;
 }
 
 .sr-only {
@@ -71,6 +75,7 @@ button {
     border-radius: 0.25rem;
 
     cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
@@ -86,6 +91,7 @@ button:hover {
     color: red;
     border: 2px red solid;
     border-radius: 0.25rem;
+    transition: 0.3s;
 
     height: 50px;
 
@@ -102,9 +108,13 @@ button:hover {
 
 /* Header ================================================ */
 header {
-    background: #2d4a22/*#121212*/;
+    background: #2d4a22;
     padding: 2rem 0 10rem;
     text-align: center;
+}
+
+body.dark header {
+    background: #111a12;
 }
 
 .toggle {
@@ -122,7 +132,7 @@ header {
 }
 
 body.dark .toggle {
-    background: #445240;
+    background: #30352e;
 }
 
 .toggle:before {
@@ -148,15 +158,19 @@ body.dark .toggle:before {
 
 /* Cards ================================================= */
 .card {
-    background: #fff/*#1F1B24*/;
+    background: #fff;
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
 
     margin-bottom: 2rem;
 
     cursor: default;
-    color: var(--dark-blue)/*#fff*/;
-    transition: 0.2s;
+    color: var(--dark-blue);
+}
+
+body.dark .card {
+    background: #1c241b;
+    color: #fff;
 }
 
 .card:hover {
@@ -195,6 +209,30 @@ body.dark .toggle:before {
     color: #fff;
 }
 
+.card.total.neutral {
+    background: #7a7a7a;
+}
+
+.card.total.positive {
+    background: #008000;
+}
+
+.card.total.negative {
+    background: #f83f3f;
+}
+
+body.dark .card.total.neutral {
+    background: #4d4d4d;
+}
+
+body.dark .card.total.positive {
+    background: #004900;
+}
+
+body.dark .card.total.negative {
+    background: #a32626;
+}
+
 /* Table ================================================= */
 #transaction {
     display: block;
@@ -205,7 +243,11 @@ body.dark .toggle:before {
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
-    color:  #3a3a3a/*#fff*/;
+    color:  #3a3a3a;
+}
+
+body.dark #data-table {
+    color: #fff;
 }
 
 table thead tr th:first-child,      /* first-child pega o primeiro elemento do tipo*/
@@ -219,12 +261,16 @@ table tbody tr td:last-child {
 }
 
 table th {
-    background: #fff/*#1F1B24*/;
+    background: #fff;
 
     font-weight: normal;
     padding: 1rem 2rem;
 
     text-align: left;
+}
+
+body.dark table th {
+    background: #1c241b;
 }
 
 table tbody tr {
@@ -237,12 +283,20 @@ table tbody tr:hover {
 }
 
 table tbody td {
-    background: #fff/*#1F1B24*/;
+    background: #fff;
     padding: 1rem 2rem;
 }
 
+body.dark table tbody td {
+    background: #1c241b;
+}
+
 td.description {
-    color: var(--dark-blue)/*#fff*/;
+    color: var(--dark-blue);
+}
+
+body.dark td.description {
+    color: #fff;
 }
 
 td.income {
@@ -283,10 +337,27 @@ td.expense {
 }
 
 .modal {
-    background: #F0F2F5/*#363636*/;
+    background: #F0F2F5;
     padding: 2.4rem;
     position: relative;
     z-index: 1;
+}
+
+body.dark .modal {
+    background: #1c241b;
+}
+
+body.dark .modal h2 {
+    color: #fff;
+}
+
+body.dark .modal input {
+    background: #30352e;
+    color: #fff;
+}
+
+body.dark .modal input::placeholder {
+    color: #fff;
 }
 
 /* Form ================================================== */
@@ -334,10 +405,15 @@ input {
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
-    color: var(--dark-blue)/*#AFAFAF*/;
+    color: var(--dark-blue);
     background: #f0f5f0;
 
     opacity: 0.6;
+}
+
+body.dark footer {
+    background: #30352e;
+    color: #afafaf;
 }
 
 /* Responsive ================================================ */
@@ -353,49 +429,3 @@ footer {
     }
 
 }
-
-
-
-
-/* Theme Switch ========================================== */
-/*
-input[type="checkbox"] {
-    -webkit-appearance: none;
-    visibility: hidden;
-    display: none;
-  }
-  
-  .check {
-    position: absolute;
-    right: 20px;
-    top: 32.5px;
-    width: 40px;
-    height: 20px;
-    background: var(--light-green);
-    cursor: pointer;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: ease-in 0.2s;
-  }
-  
-  input[type="checkbox"]:checked ~ .check {
-    background: #333333;
-  }
-  
-  .check::before {
-    content: "";
-    position: absolute;
-    top: 2.5px;
-    left: 2px;
-    background: #fff;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    transition: 0.2s;
-  }
-  
-  input[type="checkbox"]:checked ~ .check::before {
-    transform: translateX(20px);
-    background: #3dd705;
-  } 
-*/
