@@ -107,9 +107,33 @@ header {
     text-align: center;
 }
 
-#logo {
+.toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #eaffe9;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+body.dark .toggle {
+    background: #445240;
+}
+
+.toggle:before {
+    content: '\f186';
+    font-family: fontAwesome;
+    color: var(--green);
+}
+
+body.dark .toggle:before {
+    content: '\f185';
     color: #fff;
-    font-weight: 100;
 }
 
 /* Balance =============================================== */
