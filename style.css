@@ -167,6 +167,7 @@ body.dark .toggle:before {
 
     cursor: default;
     color: var(--dark-blue);
+    transition: transform 0.2s ease, background 0.5s;
 }
 
 body.dark .card {
@@ -353,11 +354,15 @@ body.dark .modal h2 {
 }
 
 body.dark .modal input {
-    background: #30352e;
+    background: #576353;
     color: #fff;
 }
 
 body.dark .modal input::placeholder {
+    color: #fff;
+}
+
+body.dark .modal small {
     color: #fff;
 }
 
